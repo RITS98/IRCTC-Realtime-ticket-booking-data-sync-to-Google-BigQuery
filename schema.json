@@ -1,0 +1,53 @@
+{
+  "type": "record",
+  "name": "Avro",
+  "fields": [
+    {
+      "name": "row_key",
+      "type": "string"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "age",
+      "type": "int"
+    },
+    {
+      "name": "email",
+      "type": "string"
+    },
+    {
+      "name": "join_date",
+      "type": "string"
+    },
+    {
+      "name": "last_login",
+      "type": "string"
+    },
+    {
+      "name": "loyalty_points",
+      "type": "int"
+    },
+    {
+      "name": "account_balance",
+      "type": "double"
+    },
+    {
+      "name": "is_active",
+      "type": "boolean"
+    },
+    {
+      "name": "inserted_at",
+      "type": "string"
+    },
+    {
+      "name": "updated_at",
+      "type": [
+        "null",
+        "string"
+      ]
+    }
+  ]
+}
