@@ -51,7 +51,7 @@ This project provides a solution for syncing ticket booking data in real-time to
 <br>
 <img width="890" alt="image" src="https://github.com/user-attachments/assets/b96912d5-bdd8-466c-91f2-fcbfc257a923" />
 <br>
-8. 
+8. Select the required schema. Press `Click` button.
 
 
 
