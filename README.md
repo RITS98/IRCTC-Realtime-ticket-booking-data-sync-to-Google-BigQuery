@@ -83,4 +83,9 @@ This project provides a solution for syncing ticket booking data in real-time to
 <br>
 <img width="956" alt="image" src="https://github.com/user-attachments/assets/8008ba4a-d36d-4ef0-b346-f3df6da5499b" />
 
-3. 
+3. I want to use custom transformation logic for the incoming data. The transfromed data will be sent to the Bigquery table.
+4. The transformation code is kept in the `transform.py` file inside the `irctc_data_transformation_ritayan` folder of the `bigquery_ritayan` bucket.
+5. The code is written in Python and uses the Apache Beam library to process the data.
+6. The code reads the data from the Pub/Sub topic, applies the transformation logic, and writes the transformed data to the BigQuery table.
+7. The code is executed in a Dataflow job, which is a fully managed service for processing data in the cloud.
+
