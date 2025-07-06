@@ -2,10 +2,22 @@
 
 ## Ovierview
 
-What is IRCTC ?
+What is IRCTC ?  
 IRCTC stands for Indian Railway Catering and Tourism Corporation. It's a subsidiary of Indian Railways, operating as the official online portal for booking train tickets, providing catering services, and offering tourism packages. 
 
 This project provides a solution for syncing ticket booking data in real-time to Google BigQuery. It utilizes a combination of Python, Google Cloud Pub/Sub, GCP Dataflow (Apache Beam), and BigQuery to achieve this.
+
+
+## Directory structure:
+rits98-irctc-realtime-ticket-booking-data-sync-to-google-bigquery/
+    ├── README.md
+    ├── bigquery_create_table.sql
+    ├── data_mocker.py
+    └── transform_data.py
+
+1. bigquery_create_table.sql -> DML query to create table to ingest and store the data.
+2. data_mocker.py -> It simulates the generation of data and mimics the IRCTC system.
+3. transform_data.py  -> It transforms the data once it is consumed from GCP Pub/Sub before loading it into the BigQuery table.
 
 ## Features
 	-  Real-time Data Ingestion: Captures ticket booking events as they occur.
