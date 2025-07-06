@@ -3,6 +3,13 @@
 ## Ovierview
 This project provides a solution for syncing ticket booking data in real-time to Google BigQuery. It utilizes a combination of Python, Google Cloud Pub/Sub, GCP Dataflow (Apache Beam), and BigQuery to achieve this.
 
+## Features
+	-  Real-time Data Ingestion: Captures ticket booking events as they occur.
+	-  Data Pipeline: Utilizes tools like BigQuery, Google Cloud Pub/Sub, and Dataflow for scalable data processing.
+	-  BigQuery Integration: Stores processed data in Google BigQuery for fast querying and analytics.
+	-  Fault Tolerance: Ensures data consistency and reliability in case of failures.
+	-  Extensible Architecture: Easily adaptable for additional data sources or destinations.
+
 ## Steps
 
 ###  Enable all service permissions
