@@ -14,11 +14,13 @@ rits98-irctc-realtime-ticket-booking-data-sync-to-google-bigquery/
     ├── README.md  
     ├── bigquery_create_table.sql  
     ├── data_mocker.py  
+    ├── schema.json
     └── transform_data.py  
 
 1. bigquery_create_table.sql -> DML query to create table to ingest and store the data.
 2. data_mocker.py -> It simulates the generation of data and mimics the IRCTC system.
 3. transform_data.py  -> It transforms the data once it is consumed from GCP Pub/Sub before loading it into the BigQuery table.
+4. schema.json -> Contains the published message schema which is imported in the GCP Pub/Sub
 
 ## Features
 	-  Real-time Data Ingestion: Captures ticket booking events as they occur.
