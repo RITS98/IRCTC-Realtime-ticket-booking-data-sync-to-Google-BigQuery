@@ -83,7 +83,6 @@ rits98-irctc-realtime-ticket-booking-data-sync-to-google-bigquery/
 
 ## Steps
 
----
 ###  Enable all service permissions
 
 1.  Go to `IAM & Admin`
