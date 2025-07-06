@@ -84,8 +84,55 @@ This project provides a solution for syncing ticket booking data in real-time to
 <img width="956" alt="image" src="https://github.com/user-attachments/assets/8008ba4a-d36d-4ef0-b346-f3df6da5499b" />
 
 3. I want to use custom transformation logic for the incoming data. The transfromed data will be sent to the Bigquery table.
-4. The transformation code is kept in the `transform.py` file inside the `irctc_data_transformation_ritayan` folder of the `bigquery_ritayan` bucket.
-5. The code is written in Python and uses the Apache Beam library to process the data.
+4. The transformation code is kept in the `transform_data.py` file inside the `irctc_data_transformation_ritayan` folder of the `bigquery_ritayan` bucket.
+<br>
+<img width="1161" alt="image" src="https://github.com/user-attachments/assets/2d97fc37-1527-4b90-a93b-9d7f8fa0a28b" />
+<br>
+5. The code is written in Python and to process the data.
 6. The code reads the data from the Pub/Sub topic, applies the transformation logic, and writes the transformed data to the BigQuery table.
 7. The code is executed in a Dataflow job, which is a fully managed service for processing data in the cloud.
+8. Click on the `Run Job` option.
+
+<br>
+<img width="917" alt="image" src="https://github.com/user-attachments/assets/b96935c8-8b72-487f-856b-859db8c0e6e7" />
+<br>
+
+<br>
+<img width="918" alt="image" src="https://github.com/user-attachments/assets/f1339968-fe95-4469-9018-85646b3bac14" />
+<br>
+
+### DataFlow Job Details
+
+**The graph View of Jobs**
+<br>
+<img width="1592" alt="image" src="https://github.com/user-attachments/assets/c19ad53c-3121-44a0-b89c-470886857191" />
+<br>
+
+The job is in continuous running state.
+
+**The Table View of the Jobs**
+<br>
+<img width="1596" alt="image" src="https://github.com/user-attachments/assets/b47df810-0d64-4bb3-a0f3-0201cd07aaa9" />
+<br>
+
+## Results
+
+1. Ran the python code.
+<br>
+![image](https://github.com/user-attachments/assets/80fe0888-7eb8-4d2d-a34c-89f2c97d1b00)
+<br>
+
+3. See the tables in Bigquery Console.
+<br>
+<img width="1297" alt="image" src="https://github.com/user-attachments/assets/e8fde1f3-caa1-4894-b52f-051a10312411" />
+<br>
+
+4. DataFlow logs
+<br>
+<img width="1107" alt="image" src="https://github.com/user-attachments/assets/9b9c693f-6a31-4562-8a69-a0b581993295" />
+<br>
+
+
+
+
 
