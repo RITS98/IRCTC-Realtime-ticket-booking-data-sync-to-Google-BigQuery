@@ -14,7 +14,7 @@ rits98-irctc-realtime-ticket-booking-data-sync-to-google-bigquery/
     ├── README.md  
     ├── bigquery_create_table.sql  
     ├── data_mocker.py  
-    ├── schema.json
+    ├── schema.json  
     └── transform_data.py  
 
 1. bigquery_create_table.sql -> DML query to create table to ingest and store the data.
