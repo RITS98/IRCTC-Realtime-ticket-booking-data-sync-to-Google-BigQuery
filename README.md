@@ -52,7 +52,19 @@ This project provides a solution for syncing ticket booking data in real-time to
 <img width="890" alt="image" src="https://github.com/user-attachments/assets/b96912d5-bdd8-466c-91f2-fcbfc257a923" />
 <br>
 8. Select the required schema. Press `Click` button.
-9. 
+
+
+### Create a Dataflow Job
+
+1. Create a Job using templete.
+<br>
+<img width="961" alt="image" src="https://github.com/user-attachments/assets/4b5cad4c-776f-4224-84ab-075a66a163a6" />
+<br>
+2. Give the necessay details.
+<br>
+<img width="956" alt="image" src="https://github.com/user-attachments/assets/8008ba4a-d36d-4ef0-b346-f3df6da5499b" />
+
+3. 
 
 
 
