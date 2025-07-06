@@ -133,6 +133,33 @@ The job is in continuous running state.
 <br>
 
 
+## FAQs
+
+1. How to stop the job ?
+<br>
+<img width="1338" alt="image" src="https://github.com/user-attachments/assets/a338f960-ddf8-4e30-aedc-f250af9a5512" />
+<br>
+
+Choose `Drain` to gracefully stop the job. 
+
+2. How to add gcp credentials to local environment ?
+   - To to service account and cick on keys and click on `Add Keys`
+     <img width="1090" alt="image" src="https://github.com/user-attachments/assets/c11dd86e-c49d-4540-ae63-fd941489d946" />
+   - Use below code to add the keys.
+     -   if bash
+         `export GOOGLE_APPLICATION_CREDENTIALS="/path/to/your/service-account-key.json"`
+     -   if python
+         `import os
+          from google.cloud import pubsub_v1
+         
+          os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/path/to/key.json"
+         
+          publisher = pubsub_v1.PublisherClient()
+         `
+
+
+
+
 
 
 
