@@ -54,22 +54,6 @@ This project provides a solution for syncing ticket booking data in real-time to
 8. Select the required schema. Press `Click` button.
 
 
-### Create a Dataflow Job
-
-1. Create a Job using templete.
-<br>
-<img width="961" alt="image" src="https://github.com/user-attachments/assets/4b5cad4c-776f-4224-84ab-075a66a163a6" />
-<br>
-2. Give the necessay details.
-<br>
-<img width="956" alt="image" src="https://github.com/user-attachments/assets/8008ba4a-d36d-4ef0-b346-f3df6da5499b" />
-
-3. 
-
-
-
-
-
 ### Create table in GCP Bigquery
 
 1. Open Bigquery in GCP
@@ -87,3 +71,16 @@ This project provides a solution for syncing ticket booking data in real-time to
 <img width="924" alt="image" src="https://github.com/user-attachments/assets/0262553c-99ab-4fee-97a7-820cc1ffc7e2" />
 <br>
 6. 
+
+
+### Create a Dataflow Job
+
+1. Create a Job using templete.
+<br>
+<img width="961" alt="image" src="https://github.com/user-attachments/assets/4b5cad4c-776f-4224-84ab-075a66a163a6" />
+<br>
+2. Give the necessay details.
+<br>
+<img width="956" alt="image" src="https://github.com/user-attachments/assets/8008ba4a-d36d-4ef0-b346-f3df6da5499b" />
+
+3. 
