@@ -119,7 +119,7 @@ The job is in continuous running state.
 
 1. Ran the python code.
 <br>
-![image](https://github.com/user-attachments/assets/80fe0888-7eb8-4d2d-a34c-89f2c97d1b00)
+<img width="1297" alt="image" src="https://github.com/user-attachments/assets/80fe0888-7eb8-4d2d-a34c-89f2c97d1b00" />
 <br>
 
 3. See the tables in Bigquery Console.
