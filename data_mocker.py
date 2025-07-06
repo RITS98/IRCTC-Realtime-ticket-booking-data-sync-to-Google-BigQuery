@@ -21,7 +21,7 @@ class DataMocker:
             print(f"Failed to initialize Pub/Sub client: {e}")
             raise
 
-    def generate_mock_date(nrows):
+    def generate_mock_date(self, nrows):
         try:
             data = []
             for _ in range(nrows):
@@ -30,12 +30,12 @@ class DataMocker:
                     "row_key": row_key,
                     "name": ''.join(random.choices(string.ascii_letters, k=10)),
                     "age": random.randint(18, 80),
-                    "email": ''.join(random.choices(string.ascii_lowercase, k=7)) + ''.join(random.choices(string.ascii_digits, k=2)) + '@esample.com',
+                    "email": ''.join(random.choices(string.ascii_lowercase, k=7)) + ''.join(random.choices(string.digits, k=2)) + '@esample.com',
                     "join_date": (datetime.now() - timedelta(days=random.randint(0, 3650))).strftime("%Y-%m-%d"),
                     "last_login": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
                     "loyalty_points": random.randint(0, 1000),
                     "account_balance": round(random.uniform(100, 10000), 2),
-                    "is_active": random.choince([True, False]),
+                    "is_active": random.choice([True, False]),
                     "inserted_at": datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S"),
                     "updated_at": None
                 }
@@ -65,6 +65,8 @@ class DataMocker:
 
 if __name__ == '__main__':
     load_dotenv()
+
+    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/Users/ritayanpatra/Projects/GCP/computer-systems-ritayan-patra-afa8542cacc2.json"
 
     project_id = os.getenv("PROJECT_ID")
     topic_id = os.getenv("TOPIC_ID")
